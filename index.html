@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torre de Hanoi</title>
+    <style>
+      body{
+        background-color: lightblue;
+      }
+      h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      #valor{
+        text-align: center;
+      }
+      #calcular{
+        text-align: center;
+      }
+      iframe{
+        position: absolute;
+        top: 20%;
+        left: 32%;
+        width: 500px;
+        height: 400px;
+        background-color: blue;
+        border: none;
+      }
+    </style>
+</head>
+<script type="text/javascript" src="hanoi.js"></script>
+<body>
+   <h1>Calculadora da Torre de Hanoi<h1>
+  <input type="text" name="valor" id="valor">
+  <input type="button" id="calcular" value="calcular" onclick="calcular();">
+  <iframe src="iframe.html"></iframe>
+</body>
+</html>
